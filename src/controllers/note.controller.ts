@@ -40,7 +40,7 @@ export async function syncNotesController(req : Request, res: Response){
     
     } catch (error) {
        console.error("sync failed", error)
-       return res.status(500),json({
+       return res.status(500).json({
         error: "Failed to sync notes",
        })
     }
