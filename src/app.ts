@@ -5,7 +5,6 @@ import "../src/db";
 import noteRoutes from "./routes/note.routes";
 
 
-
 const app = express();
 
 app.use(cors());
