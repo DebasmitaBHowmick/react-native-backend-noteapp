@@ -1,7 +1,7 @@
 // src/app.ts
 import express from "express";
 import cors from "cors";
-import "../src/db";
+import "./db";
 import noteRoutes from "./routes/note.routes";
 
 
